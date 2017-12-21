@@ -8,14 +8,16 @@
     "theme": {
       "additionalSetColors": []
     },
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/cat-1280122-1920-128x87-1.png",
     "noImageResize": "",
     "path": "@PROJECT_PATH@",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "",
     "siteUrl": "",
     "sitemapSwitcherAuto": "on",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "google-analytics": "",
+    "cookiesAlert": ""
   },
   "pages": {
     "index.html": {
