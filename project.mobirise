@@ -3,14 +3,19 @@
     "name": "catguycomics",
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 45,
+    "uniqCompNum": 57,
     "versionPublish": "4.5.2",
     "theme": {
       "additionalSetColors": []
     },
     "favicon": "",
     "noImageResize": "",
-    "path": "@PROJECT_PATH@"
+    "path": "@PROJECT_PATH@",
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "",
+    "siteUrl": "",
+    "sitemapSwitcherAuto": "on",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -425,11 +430,66 @@
             },
             "SPAN": {
               "color": "#3d8eb9"
+            },
+            ".navbar-toggler": {
+              "color": "#989898"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#989898"
+            },
+            ".link, .dropdown-item": {
+              "color": "#989898"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#989898",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#989898"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
             }
           },
           "_cid": "qDYuQUt23y",
           "_protectedParams": [],
-          "_params": {},
+          "_params": {
+            "logo": true,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#fff",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#989898",
+            "fontHoverColor": "#222"
+          },
           "_anchor": "menu1-e"
         },
         {
@@ -455,7 +515,7 @@
           },
           "title": "Welcome to <br>Cat Guy Comics<br>",
           "text": "Hand-drawn comics. &nbsp;<br>Made by kids for kids. <br>Perfect for ages 6 and up. &nbsp;<br>Click on a title to read. &nbsp;<br>",
-          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-danger\" href=\"https://ipfs.io/ipfs/QmdZ2LyfdbH3DC8n1RVdkgcCh1TgV8y9ZqEuuu9LYNRKq2\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">The Flying Butt<br></a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-success\" href=\"https://ipfs.io/ipfs/Qmc2cihh6uguwzdAxDAVb3MsB6ahtZrCYbiJ7rAsT4bNKQ\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">The Safari Man<br></a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://ipfs.io/ipfs/QmPVVb22T5R2JwxYv6rCJFAJBbXzVjkn7xjifWx857hzSd\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">The Fart that Ate Pace</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-warning\" href=\"https://ipfs.io/ipfs/QmNR62HZNgTYSQfYaW47nbjbf2LPDvGRfLejuE9qE3HQv5\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Navy versus Army</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-primary\" href=\"https://ipfs.io/ipfs/QmVV4a8bX77WGTHYq662CpP5U8RzXabAhRcMJpPF9KQjK8\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">The Baby Tower</a>  ",
+          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-danger\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">The Flying Butt<br></a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-success\" href=\"https://ipfs.io/ipfs/Qmc2cihh6uguwzdAxDAVb3MsB6ahtZrCYbiJ7rAsT4bNKQ\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">The Safari Man<br></a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"https://ipfs.io/ipfs/QmPVVb22T5R2JwxYv6rCJFAJBbXzVjkn7xjifWx857hzSd\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">The Fart that Ate Pace</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-warning\" href=\"Navy_Army.html\" data-toolbar=\"-mbrBtnMove\">Navy versus Army</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-primary\" href=\"https://ipfs.io/ipfs/QmVV4a8bX77WGTHYq662CpP5U8RzXabAhRcMJpPF9KQjK8\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">The Baby Tower</a>  ",
           "_tags": [
             "Theme"
           ],
@@ -464,7 +524,8 @@
           "_anchor": "header4-i",
           "_styles": {
             "H1": {
-              "color": "#1abc9c"
+              "color": "#7ac673",
+              "text-align": "right"
             }
           }
         },
@@ -608,6 +669,117 @@
           ],
           "_name": "msg-box2",
           "_anchor": "msg-box2-17"
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "meta_descr": "Web Builder Description",
+        "title": "Butt",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2017 catguycomics.com",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1h"
+        },
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
+          },
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">BACK</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/cat-1280122-1921-1920x1311.jpg",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Cat Guy Comics</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1j"
+        },
+        {
+          "_inherit": "gallery1",
+          "_params": {
+            "fullWidth": false,
+            "noGutter": false,
+            "showText": false,
+            "showBullets": true,
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/the-flying-butt-page-1-816x1056.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/the-flying-butt-page-1-816x1056-800x1035.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/the-flying-butt-page-2-816x1056.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/the-flying-butt-page-2-816x1056-800x1035.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "articleLayout": true,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_anchor": "gallery2-1k"
         }
       ]
     }
