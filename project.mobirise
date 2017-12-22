@@ -1,9 +1,9 @@
 {
   "settings": {
     "name": "catguycomics",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 57,
+    "uniqCompNum": 62,
     "versionPublish": "4.5.2",
     "theme": {
       "additionalSetColors": []
@@ -600,7 +600,7 @@
           "_anchor": "msg-box2-16"
         },
         {
-          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
+          "loadsvg": "/addons/social-feed/feed/assets/loading.svg",
           "_params": {
             "paddingTop": "1",
             "paddingBottom": "1",
@@ -612,7 +612,7 @@
             "bgColorRadio": true,
             "bgColor": "#27aae0",
             "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/social-feed/feed/assets/comments_bg.jpg",
+            "bgImage": "/addons/social-feed/feed/assets/comments_bg.jpg",
             "overlay": true,
             "overlayColor": "#7e9b9f",
             "overlayOpacity": 0.6
@@ -678,7 +678,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Butt",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -739,7 +739,7 @@
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "",
               "title": ""
             },
             "iconFont": {
