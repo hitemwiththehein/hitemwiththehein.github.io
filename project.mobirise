@@ -761,97 +761,18 @@
             "showBullets": true,
             "images": [
               {
+                "image": "@PROJECT_PATH@/assets/images/the-flying-butt-page-1-816x1056.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/the-flying-butt-page-1-816x1056-800x1035.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
                 "image": "@PROJECT_PATH@/assets/images/the-flying-butt-page-2-816x1056.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/the-flying-butt-page-2-816x1056-800x1035.jpg",
                 "alt": "",
                 "caption": "Type caption here",
                 "active": true
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/army-vs-navy2-1275x1650.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/army-vs-navy2-1275x1650-800x1035.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/army-vs-navy2-1275x1650.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/army-vs-navy2-1275x1650-800x1035.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/army-vs-navy3-1275x1650.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/army-vs-navy3-1275x1650-800x1035.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/army-vs-navy3-1275x1650.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/army-vs-navy3-1275x1650-800x1035.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/army-vs-navy3-1275x1650.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/army-vs-navy3-1275x1650-800x1035.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/army-vs-navy3-1275x1650.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/army-vs-navy3-1275x1650-800x1035.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/army-vs-navy3-1275x1650.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/army-vs-navy3-1275x1650-800x1035.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/army-vs-navy1-1275x1650.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/army-vs-navy1-1275x1650-800x1035.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/army-vs-navy3-1275x1650.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/army-vs-navy3-1275x1650-800x1035.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/army-vs-navy1-1275x1650.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/army-vs-navy1-1275x1650-800x1035.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/army-vs-navy3-1275x1650.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/army-vs-navy3-1275x1650-800x1035.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
               }
             ]
           },
@@ -963,6 +884,12 @@
                 "alt": "",
                 "caption": "Type caption here",
                 "active": false
+              },
+              {
+                "active": true,
+                "thumb": "@PROJECT_PATH@/assets/images/army-vs-navy3-1275x1650-800x1035.jpg",
+                "image": "@PROJECT_PATH@/assets/images/army-vs-navy3-1275x1650.jpg",
+                "alt": ""
               }
             ]
           },
@@ -1067,6 +994,24 @@
                 "alt": "",
                 "caption": "Type caption here",
                 "active": false
+              },
+              {
+                "active": false,
+                "thumb": "@PROJECT_PATH@/assets/images/the-safari-man-page-2-816x1056-800x1035.jpg",
+                "image": "@PROJECT_PATH@/assets/images/the-safari-man-page-2-816x1056.jpg",
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/the-safari-man-page-3-816x1056.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/the-safari-man-page-3-816x1056-800x1035.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/the-safari-man-page-4-816x1056.jpg",
+                "alt": ""
               }
             ]
           },
@@ -1182,13 +1127,6 @@
               {
                 "image": "@PROJECT_PATH@/assets/images/the-fart-that-ate-pace-by-cat-guy-page-3-816x1056.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/the-fart-that-ate-pace-by-cat-guy-page-3-816x1056-800x1035.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/the-safari-man-page-4-816x1056.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/the-safari-man-page-4-816x1056-800x1035.jpg",
                 "alt": "",
                 "caption": "Type caption here",
                 "active": true
