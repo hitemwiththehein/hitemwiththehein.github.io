@@ -3,8 +3,8 @@
     "name": "catguycomics",
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 96,
-    "versionPublish": "4.5.2",
+    "uniqCompNum": 105,
+    "versionPublish": "4.6.2",
     "theme": {
       "additionalSetColors": []
     },
@@ -517,7 +517,7 @@
           },
           "title": "Welcome to <br>Cat Guy Comics<br>",
           "text": "Hand-drawn comics. &nbsp;<br>Made by kids for kids. <br>Perfect for ages 6 and up. &nbsp;<br>Click on a title to read. &nbsp;<br>",
-          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-danger\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">The Flying Butt<br></a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-success\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">The Safari Man<br></a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">The Fart that Ate Pace</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-warning\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Navy versus Army</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-primary\" href=\"page5.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">The Baby Tower</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-danger\" href=\"page6.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Catguy's Random Artwork</a>  ",
+          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-danger\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">The Flying Butt<br></a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-success\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">The Safari Man<br></a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">The Fart that Ate Pace</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-warning\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Navy versus Army</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-primary\" href=\"page5.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">The Baby Tower</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-danger\" href=\"page6.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Catguy's Random Artwork</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-success\" href=\"page7.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Marine Corps</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info\" href=\"page8.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Cat Fight</a>  ",
           "_tags": [
             "Theme"
           ],
@@ -874,21 +874,7 @@
             "showBullets": true,
             "images": [
               {
-                "image": "@PROJECT_PATH@/assets/images/army-vs-navy1-1275x1650.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/army-vs-navy1-1275x1650-800x1035.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/army-vs-navy2-1275x1650.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/army-vs-navy2-1275x1650-800x1035.jpg",
-                "alt": "",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "active": true,
+                "active": false,
                 "thumb": "@PROJECT_PATH@/assets/images/army-vs-navy3-1275x1650-800x1035.jpg",
                 "image": "@PROJECT_PATH@/assets/images/army-vs-navy3-1275x1650.jpg",
                 "alt": ""
@@ -908,7 +894,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "SafariMan",
-        "order": 5
+        "order": 7
       },
       "components": [
         {
@@ -1031,7 +1017,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "FartPace",
-        "order": 6
+        "order": 8
       },
       "components": [
         {
@@ -1389,6 +1375,230 @@
           ],
           "_name": "wowslider",
           "_anchor": "wowslider-2m"
+        }
+      ]
+    },
+    "page7.html": {
+      "settings": {
+        "meta_descr": "Web Builder Description",
+        "title": "MarineCorps",
+        "order": 5
+      },
+      "components": [
+        {
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2017 catguycomics.com",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-2r"
+        },
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
+          },
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">BACK</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/cat-1280122-1922-187x128.jpg",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-2s"
+        },
+        {
+          "_inherit": "gallery1",
+          "_params": {
+            "fullWidth": false,
+            "noGutter": false,
+            "showText": false,
+            "showBullets": true,
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/marinecorps-2000x2853.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/marinecorps-2000x2853-800x1141.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/marinecorps-1-2000x2853.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/marinecorps-1-2000x2853-800x1141.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "articleLayout": true,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_anchor": "gallery2-2t"
+        }
+      ]
+    },
+    "page8.html": {
+      "settings": {
+        "meta_descr": "Web Builder Description",
+        "title": "CatFight",
+        "order": 6
+      },
+      "components": [
+        {
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2017 catguycomics.com",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-2u"
+        },
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
+          },
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">BACK</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/cat-1280122-1922-187x128.jpg",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-2v"
+        },
+        {
+          "_inherit": "gallery1",
+          "_params": {
+            "fullWidth": false,
+            "noGutter": false,
+            "showText": false,
+            "showBullets": true,
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/catfight-2000x2853.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/catfight-2000x2853-800x1141.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/catfight-1-2000x2853.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/catfight-1-2000x2853-800x1141.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "articleLayout": true,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_anchor": "gallery2-2w"
         }
       ]
     }
