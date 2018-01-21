@@ -1578,11 +1578,18 @@
             "showBullets": true,
             "images": [
               {
-                "image": "@PROJECT_PATH@/assets/images/patsjags-2000x2853.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/patsjags-2000x2853-800x1141.jpg",
+                "image": "@PROJECT_PATH@/assets/images/catfight-2000x2853.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/catfight-2000x2853-800x1141.jpg",
                 "alt": "",
                 "caption": "Type caption here",
                 "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/catfight-1-2000x2853.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/catfight-1-2000x2853-800x1141.jpg",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": true
               }
             ]
           },
