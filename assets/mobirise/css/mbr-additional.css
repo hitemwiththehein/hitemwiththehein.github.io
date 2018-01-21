@@ -607,3 +607,15 @@ SPAN {
 #ext_menu-2y .mbr-navbar__hamburger {
   color: #ffffff;
 }
+#ext_menu-34 .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-34.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-34 .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-34 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
