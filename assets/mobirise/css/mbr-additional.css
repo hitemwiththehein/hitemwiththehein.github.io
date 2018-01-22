@@ -499,6 +499,15 @@ SPAN {
   font-size: 12px;
 }
 }
+
+#msg-box2-3a {
+.mbr-header .mbr-header__text {
+  color: #252525;
+}
+.mbr-article {
+  color: #252525;
+}
+}
 #ext_menu-1j .mbr-brand__name {
   font-size: 16px;
 }

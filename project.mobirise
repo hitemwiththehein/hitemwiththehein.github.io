@@ -3,7 +3,7 @@
     "name": "catguycomics",
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 117,
+    "uniqCompNum": 119,
     "versionPublish": "4.6.2",
     "theme": {
       "additionalSetColors": []
@@ -649,7 +649,7 @@
             "showText": false,
             "showButtons": true,
             "paddingTop": "1",
-            "paddingBottom": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
@@ -663,14 +663,52 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "Donate Ethereum: <br>0x2B59d091745A64F48E4783BfCAf1e8CC5739438b<br>",
+          "title": "Donate Ethereum to help our cats/authors: <br><br>",
           "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-success\" href=\"https://etherdonation.com/d?to=0x2B59d091745A64F48E4783BfCAf1e8CC5739438b\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-cash mbr-iconfont mbr-iconfont-btn\"></span>Donate to help us? Click here!</a> ",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"https://etherdonation.com/d?to=0x2B59d091745A64F48E4783BfCAf1e8CC5739438b\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-cash mbr-iconfont mbr-iconfont-btn\"></span>Donate To Help Us? Click Here!</a> ",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box2",
           "_anchor": "msg-box2-17"
+        },
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#252525"
+            },
+            ".mbr-article": {
+              "color": "#252525"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f7da64",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Building your own site? &nbsp;Click for Cool Wordpress Themes...they are awesome:<br><br>",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"http://e2d0fbbsko0p8p3iyfl9t-5z88.hop.clickbank.net/\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Cool Wordpress Themes! Click Here!</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-3a"
         }
       ]
     },
