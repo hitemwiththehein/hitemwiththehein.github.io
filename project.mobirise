@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "catguycomics",
-    "currentPage": "page6.html",
+    "currentPage": "index.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 120,
     "versionPublish": "4.6.2",
@@ -12,12 +12,13 @@
     "noImageResize": "",
     "path": "@PROJECT_PATH@",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "robotsSwitcher": "",
-    "siteUrl": "",
+    "robotsSwitcher": "on",
+    "siteUrl": "https://catguycomics.com",
     "sitemapSwitcherAuto": "on",
     "screenshot": "screenshot.png",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-112838052-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-112838052-1');\r\n</script>",
-    "cookiesAlert": ""
+    "cookiesAlert": "",
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "index.html": {
@@ -1405,7 +1406,7 @@
                 "tooltip": "@PROJECT_PATH@/assets/images/barbarian-47x47.png",
                 "title": "title 1",
                 "text": "text 1",
-                "active": true
+                "active": false
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/murderscene-2-360x360.jpg",
@@ -1455,7 +1456,7 @@
                 "tooltip": "@PROJECT_PATH@/assets/images/taker-48x48.png",
                 "title": "title 1",
                 "text": "text 1",
-                "active": false
+                "active": true
               }
             ],
             "fullScreen": true,
