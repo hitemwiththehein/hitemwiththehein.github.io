@@ -1446,6 +1446,16 @@
                 "title": "title 1",
                 "text": "text 1",
                 "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/taker-360x360.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/taker-768x768.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/taker-48x48.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": false
               }
             ],
             "fullScreen": true,
