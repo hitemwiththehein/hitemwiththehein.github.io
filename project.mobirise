@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "catguycomics",
-    "currentPage": "index.html",
+    "currentPage": "page2.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 120,
     "versionPublish": "4.6.2",
@@ -949,6 +949,18 @@
             "showText": false,
             "showBullets": true,
             "images": [
+              {
+                "active": false,
+                "thumb": "@PROJECT_PATH@/assets/images/army-vs-navy1-1-1275x1650-800x1035.jpg",
+                "image": "@PROJECT_PATH@/assets/images/army-vs-navy1-1-1275x1650.jpg",
+                "alt": ""
+              },
+              {
+                "active": true,
+                "thumb": "@PROJECT_PATH@/assets/images/army-vs-navy2-1-1275x1650-800x1035.jpg",
+                "image": "@PROJECT_PATH@/assets/images/army-vs-navy2-1-1275x1650.jpg",
+                "alt": ""
+              },
               {
                 "active": false,
                 "thumb": "@PROJECT_PATH@/assets/images/army-vs-navy3-1275x1650-800x1035.jpg",
