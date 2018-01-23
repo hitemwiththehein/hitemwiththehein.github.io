@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "catguycomics",
-    "currentPage": "page2.html",
+    "currentPage": "page6.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 120,
     "versionPublish": "4.6.2",
@@ -1435,6 +1435,16 @@
                 "tooltip": "@PROJECT_PATH@/assets/images/sixflagportal-48x48.png",
                 "title": "title 2",
                 "text": "text 2",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/raw25-360x360.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/raw25-768x768.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/raw25-48x48.png",
+                "title": "title 1",
+                "text": "text 1",
                 "active": false
               }
             ],
